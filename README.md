@@ -67,5 +67,5 @@ Some of characters have multiple cities which you can split the value with '،' 
 
 # :open_mouth: Tricks
 
-## Minify
+### Minify
 to reduce json file size you can use [JSON Minify](https://jsonformatter.org/json-minify)
