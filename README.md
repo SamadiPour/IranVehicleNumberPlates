@@ -1,4 +1,4 @@
-# IranNumberPlate
+# :car: IranNumberPlate
 This a full list of Iran vehicle number plates gathered from many different sources with great help of [Reza Rasoulzadeh](https://github.com/RezaRasoulzadeh).   
 
 # :dizzy_face: Usage
@@ -64,3 +64,8 @@ and normal one here:
 ```
 
 Some of characters have multiple cities which you can split the value with '،' to have all cities seperated.
+
+# :open_mouth: Tricks
+
+## Minify
+to reduce json file size you can use [JSON Minify](https://jsonformatter.org/json-minify)
