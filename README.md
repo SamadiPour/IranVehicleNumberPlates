@@ -23,8 +23,44 @@ The order of letter in the plates follows the alphabetical order of the Persian 
 
 In order to reduce file size, we decided to merge all letters if all of them are for same county. you can see merged example here:
 
-<img src="example1.png">
+```json
+    {
+        "number": 10,
+        "state": "تهران",
+        "characterCounty": [
+            {
+                "char": "همه",
+                "county": "تهران"
+            }
+        ]
+    }
+```
 
 and normal one here:
 
-<img src="example2.png">
+```json
+    {
+        "number": 89,
+        "state": "قزوین",
+        "characterCounty": [
+            {
+                "char": "ب",
+                "county": "تاکستان"
+            },
+            {
+                "char": "ج",
+                "county": "بوئین زهرا، آوج"
+            },
+            {
+                "char": "د",
+                "county": "آبیک"
+            },
+            {
+                "char": "س",
+                "county": "تاکستان"
+            }
+        ]
+    }
+```
+
+Some of characters have multiple cities which you can split the value with ', ' to have all cities seperated.
