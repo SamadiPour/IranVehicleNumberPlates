@@ -63,4 +63,4 @@ and normal one here:
     }
 ```
 
-Some of characters have multiple cities which you can split the value with ', ' to have all cities seperated.
+Some of characters have multiple cities which you can split the value with '،' to have all cities seperated.
